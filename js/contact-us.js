@@ -1,3 +1,4 @@
+//NOTE: This file is no longer in use; this was v1 of getting the contact us form to work before switching it to PHP.
 //Author: Brandon Wayne Fields
 var isValid;
 var name, email_add, message_txt;

@@ -1,1 +1,9 @@
 /* Author: Brandon W Fields */
+
+.body-container {
+    padding: 0 1vw 0 1vw;
+}
+
+.body-wrapper {
+    padding: 0 0 1vw 0;
+}
