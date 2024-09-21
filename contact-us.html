@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, minimum-scale=1, maximum-scale=1"/>
+    <meta name="description" content="The Contact Us page of the 6th Street General Baptist Church website. Come here to reach out to us!"/>
+    <meta name="author" content="Brandon W Fields"/>
+    <meta name="robots" content="follow"/>
+    <meta http-equiv="cache-control" content="no-cache"/>
+    <title>6th Street General Baptist Church - Contact Us</title>
+
+    <!-- Load Stles: -->
+    <link rel="stylesheet" href="css/master.css">
+    <link rel="stylesheet" href="css/navbar.css">
+    <link rel="stylesheet" href="css/contact-us.css">
+
+    <!-- Load jQuery: -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+
+    <!-- Global site tag (gtag.js) - Google Analytics -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=UA-158912747-1"></script>
+    <script>
+      window.dataLayer = window.dataLayer || [];
+      function gtag(){dataLayer.push(arguments);}
+      gtag('js', new Date());
+
+      gtag('config', 'UA-158912747-1');
+    </script>
+
+  </head>
+  <body>
+    <div class="page-container">
+      <div class="header-container">
+        <div class="header-wrapper logo-txt">
+          <img id="Main_Logo" src="imgs/bird.png" alt="dove">
+          <h1 id="Header_Text">6th Street General Baptist Church</h1>
+          <p id="Tagline_Text">Making deciples for Christ</p>
+        </div>
+
+        <div class="header-wrapper nav">
+          <div class="navbar-wrapper">
+            <ul class="navbar-navigation">
+              <li class="nav-item">
+                <a class="nav-link" href="http://6thstreetgeneralbaptist.com/">
+                  <p>Home</p>
+                </a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="about.html">
+                  <p>About Us</p>
+                </a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="documents.html">
+                  <!-- tooltip goes here, says coming soon -->
+                  <p>Documents</p>
+                </a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="contact-us.html">
+                  <p>Contact Us</p>
+                </a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="calendar.html">
+                  <p>Calendar</p>
+                </a>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </div>
+      <div class="body-container">
+        <div class="body-wrapper">
+          <p id="Mobile_Message">*Please view this page in landscape on Android devices*</p>
+          <p class="contact-us-title">Contact Us</p>
+          <p><b>Please Note:</b> Once you click submit, you will automatically be taken back to the home page. Your request will be submitted, and someone will be in contact with you within the next few days.</p>
+
+          <form action="sendresults.php" method="post">
+            <div class="input-wrapper">
+              <label for="#Name_Txt">Name:</label>
+              <input name="name" type="text" id="Name_Txt"/>
+            </div>
+            <div class="input-wrapper">
+              <label for="#Email_Txt">Email:</label>
+              <input name="email" type="text" id="Email_Txt"/>
+            </div>
+            <div class="input-wrapper">
+              <label id="Message_Label" for="#Message_Txt">Message:</label>
+              <textarea name="message" id="Message_Txt" rows=" 10" cols="80"></textarea>
+            </div>
+            <button type="submit" id="Submit_Btn">Submit</button>
+          </form>
+        </div>
+      </div>
+      <div class="footer-container">
+        <div class="credit-to-icon-auth">
+          <p>
+            bird.jpg made by
+            <a href="https://www.flaticon.com/authors/freepik" title="Freepik">Freepik</a>
+            from
+            <a href="https://www.flaticon.com/" title="Flaticon">www.flaticon.com</a>
+          </p>
+        </div>
+      </div>
+    </div>
+
+
+    <!--<script src="js/contact-us.js" type="text/javascript"></script>
+    <script src="https://smtpjs.com/v3/smtp.js"></script>-->
+  </body>
+</html>

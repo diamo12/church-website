@@ -1,0 +1,196 @@
+/* Author: Brandon W Fields */
+
+#Mobile_Message {
+  display: none;
+}
+
+/* Smartphones (portrait) */
+@media only screen
+and (min-device-width : 320px)
+and (max-device-width : 480px)
+and (orientation: portrait) {
+  .body-container {
+    height: 170vw;
+  }
+
+  .body-wrapper {
+    margin-top: 6vw;
+  }
+
+  #Mobile_Message {
+    display: block !important;
+    font-weight: bold;
+    color: rgba(232, 22, 7, 0.9);
+    text-align: center;
+    font-size: 3vw;
+  }
+
+  .contact-us-title {
+    display: block;
+    position: relative;
+    text-align: center;
+    font-family: Georgia;
+    font-size: 15vw;
+    font-weight: bold;
+    letter-spacing: .2vw;
+    color: rgba(31, 120, 127, .5);
+    -webkit-text-stroke: 0.5vw black;
+    text-shadow: 0.25vw 0.25vw 0.6vw rgba(0, 0, 0, .2);
+    margin: 1vw auto;
+  }
+
+  .input-wrapper {
+    margin: 1vw auto 1vw auto;
+    width: 50%;
+  }
+
+  label {
+    display: block;
+    font-size: 5vw;
+  }
+
+  #Name_Txt, #Email_Txt {
+    margin-left: 1.25vw;
+    display: block;
+    width: 90%;
+    padding: 1vw 0vw;
+    border-width: .25vw;
+    border-style: solid;
+    font-size: 25px;
+  }
+
+  #Message_Txt {
+    display: block;
+    width: 90%;
+    border-width: .25vw;
+    border-style: solid;
+    border-color: black;
+    margin-left: 1vw;
+    padding: 1vw;
+    font-size: 25px;
+  }
+
+  #Submit_Btn {
+    display: inline-block;
+    margin-bottom: 1vw;
+    margin-left: 40vw;
+    padding: .25vw .75vw;
+    background-color: rgb(31, 120, 127);
+    color: white;
+    border: 2.5vw solid rgb(31, 120, 127);
+    border-radius: 2.5vw;
+    font-size: 5vw;
+    margin-top: 5vw;
+  }
+}
+
+/* Tablets, iPads (portrait and landscape); Smartphones (landscape) */
+@media only screen
+and (min-device-width : 481px)
+and (max-device-width : 1223px) {
+  .body-container {
+    height: 65vw;
+  }
+
+  .body-wrapper {
+
+  }
+
+  .contact-us-title {
+    display: block;
+    position: relative;
+    text-align: center;
+    font-family: Georgia;
+    font-size: 8vw;
+    font-weight: bold;
+    letter-spacing: .2vw;
+    color: rgba(31, 120, 127, .5);
+    -webkit-text-stroke: .15vw black;
+    text-shadow: .25vw .25vw .6vw rgba(0, 0, 0, .2);
+    margin: 1vw auto;
+  }
+
+  .input-wrapper {
+    margin: 1vw auto 1vw auto;
+    width: 50%;
+  }
+
+  label {
+    font-size: 3vw;
+  }
+
+  #Name_Txt, #Email_Txt {
+    margin-left: 1.25vw;
+  }
+
+  #Message_Label {
+    vertical-align: top;
+  }
+
+  #Message_Txt {
+    width: 90%;
+  }
+
+  #Submit_Btn {
+    display: inline-block;
+    margin-bottom: 1vw;
+    margin-left: 40vw;
+    padding: .25vw .75vw;
+    background-color: rgb(31, 120, 127);
+    color: white;
+    border: 1.75vw solid rgb(31, 120, 127);
+    border-radius: 2vw;
+    font-size: 4vw;
+  }
+}
+
+/* Desktops and laptops */
+@media only screen
+and (min-width : 1224px) {
+  .body-container {
+    height: 36vw;
+  }
+
+  .body-wrapper {
+    /* margin-top: 6vw; */
+  }
+
+  .contact-us-title {
+    display: block;
+    position: relative;
+    text-align: center;
+    font-family: Georgia;
+    font-size: 5vw;
+    font-weight: bold;
+    letter-spacing: .2vw;
+    color: rgba(31, 120, 127, .5);
+    -webkit-text-stroke: .15vw black;
+    text-shadow: .25vw .25vw .6vw rgba(0, 0, 0, .2);
+    margin: 1vw auto;
+  }
+
+  .input-wrapper {
+    margin: 1vw auto 1vw auto;
+    width: 50%;
+  }
+
+  #Name_Txt, #Email_Txt {
+    margin-left: .9vw;
+  }
+
+  #Message_Label {
+    vertical-align: top;
+  }
+
+  #Submit_Btn {
+    display: inline-block;
+    margin-bottom: 1vw;
+    margin-left: 50vw;
+    padding: .25vw .75vw;
+    background-color: rgb(31, 120, 127);
+    color: white;
+    border: .5vw solid rgb(31, 120, 127);
+    border-radius: .5vw;
+    font-size: 1vw;
+  }
+}

@@ -1,0 +1,369 @@
+/* Author: Brandon W Fields */
+
+#Pastor_Text {
+  font-weight: bold;
+}
+
+/* Smartphones (portrait) */
+@media only screen
+and (min-device-width : 320px)
+and (max-device-width : 480px)
+and (orientation: portrait) {
+  .body-container {
+    width: 100%;
+    height: 250vw;
+    margin: 0 8px 0 8px;
+  }
+
+  .body-section-image {
+    width: 90%;
+    margin-top: 3vw;
+    border: .5vw solid rgba(31, 120, 127, .5);
+    box-shadow: -5px 3px 10px rgb(150, 150, 150);
+    margin-left: 2.5vw;
+  }
+
+  .body-section-tagline {
+    font-size: 7.35vw;
+    margin-bottom: 0;
+    margin-top: 18vw;
+    margin-right: 8px;
+  }
+
+  #Sec_One {
+    display: block;
+  }
+
+  #Txt_Wrapper {
+    display: inline-block;
+    width: 100%;
+    text-align: center;
+    vertical-align: top;
+    margin-top: 9vw;
+  }
+
+  #Par_One {
+    display: block;
+    font-size: 4.25vw;
+    margin-top: 1.5vw;
+    margin-right: 8px;
+  }
+
+  #Cap_One {
+    position: absolute;
+    top: 127vw;
+    left: 19vw;
+    text-align: center;
+    font-size: 3.25vw;
+  }
+
+  #Cap_Two {
+    font-size: 5.7vw;
+    font-family: Helvetica;
+    text-align: center;
+    position: absolute;
+    top: 135vw;
+  }
+
+  ul > li {
+    font-size: 3vw;
+  }
+
+  .info-wrapper {
+    text-align: left;
+    background-color: rgba(31, 120, 127, .3);
+    box-shadow: -5px 3px 10px rgb(150, 150, 150);
+    margin-top: 1.5vw;
+    height: 25%;
+    padding: 1vw;
+    margin-left: 2.5vw;
+    width: 90%;
+  }
+
+  #Info_One {
+    margin-right: .5vw;
+    margin-bottom: 5vw;
+  }
+
+  #Pastor_Box_Img {
+    display: inline-block;
+    width: 25%;
+  }
+
+  #Pastor_Text {
+    display: inline-block;
+    width: 70%;
+    text-align: center;
+    vertical-align: top;
+    font-family: "Helvetica Neue";
+    font-size: 5vw;
+  }
+
+  .phone-text {
+    font-size: 3.25vw;
+    font-weight: normal;
+  }
+
+  #List_One {
+    vertical-align: top;
+  }
+
+  .servicetime-list {
+    margin: 1vw;
+  }
+
+  #Event_Times {
+    text-align: center;
+    padding-top: 1.25vw;
+    font-size: 3vw;
+  }
+}
+
+/* Tablets, iPads (portrait and landscape); Smartphones (landscape) */
+@media only screen
+and (min-device-width : 481px)
+and (max-device-width : 1223px) {
+  .body-container {
+    width: 100%;
+    height: 45vw;
+  }
+
+  .body-section {
+    padding: 1vw;
+  }
+
+  .body-section-image {
+    width: 35%;
+    margin-top: 1.5vw;
+    margin-left: .5vw;
+    border: .25vw solid rgba(31, 120, 127, .5);
+    box-shadow: -5px 3px 10px rgb(150, 150, 150);
+  }
+
+  .body-section-tagline {
+    display: inline-block;
+    margin: 1vw auto 0 auto;
+    font-size: 2.5vw;
+  }
+
+  #Sec_One {
+    display: block;
+  }
+
+  #Txt_Wrapper {
+    display: inline-block;
+    width: 60%;
+    text-align: center;
+    vertical-align: top;
+  }
+
+  #Par_One {
+    display: block;
+    font-size: 1.55vw;
+    margin-top: 1.5vw;
+  }
+
+  #Cap_One {
+    display: inline-block;
+    font-size: 1vw;
+    font-family: Arial;
+    text-align: center;
+    width: 34%;
+    margin-top: 0;
+    position: absolute;
+    left: 1.5vw;
+    top: 35.5vw;
+  }
+
+  #Cap_Two {
+    display: inline-block;
+    font-size: 1.9vw;
+    font-family: "Helvetica Neue";
+    text-align: center;
+    width: 34%;
+    margin-top: 0;
+    position: absolute;
+    left: 1.5vw;
+    top: 40vw;
+    font-weight: bold;
+  }
+
+  ul > li {
+    font-size: 1vw;
+  }
+
+  .info-wrapper {
+    display: inline-block;
+    text-align: left;
+    background-color: rgba(31, 120, 127, .3);
+    box-shadow: -5px 3px 10px rgb(150, 150, 150);
+    margin-top: 1.5vw;
+    height: 16.5vw;
+    padding: 1vw;
+  }
+
+  #Info_One {
+    width: 60%;
+    margin-right: .5vw;
+  }
+
+  #Pastor_Box_Img {
+    display: inline-block;
+    width: 25%;
+  }
+
+  #Pastor_Text {
+    display: inline-block;
+    width: 70%;
+    text-align: center;
+    vertical-align: top;
+    font-family: "Helvetica Neue";
+    font-size: 1.5vw;
+  }
+
+  .phone-text {
+    font-size: 1vw;
+    font-weight: normal;
+  }
+
+  #List_One {
+    vertical-align: top;
+    padding-left: .5vw;
+    padding-right: .5vw;
+    width: 30%;
+  }
+
+  .servicetime-list {
+    margin: 1vw;
+  }
+
+  #Event_Times {
+    text-align: center;
+    padding-top: 1.25vw;
+    font-size: 1vw;
+  }
+}
+
+/* Desktops and laptops */
+@media only screen
+and (min-width : 1224px) {
+  .body-container {
+    width: 100%;
+    height: 40vw;
+  }
+
+  .body-section {
+    padding: 1vw;
+  }
+
+  .body-section-image {
+    width: 35%;
+    margin-top: 1.5vw;
+    margin-left: .5vw;
+    border: .25vw solid rgba(31, 120, 127, .5);
+    box-shadow: -5px 3px 10px rgb(150, 150, 150);
+  }
+
+  .body-section-tagline {
+    display: inline-block;
+    margin: 1vw auto 0 auto;
+    font-size: 2.5vw;
+  }
+
+  #Sec_One {
+    display: block;
+  }
+
+  #Txt_Wrapper {
+    display: inline-block;
+    width: 60%;
+    text-align: center;
+    vertical-align: top;
+  }
+
+  #Par_One {
+    display: block;
+    font-size: 1.55vw;
+    margin-top: 1.5vw;
+  }
+
+  #Cap_One {
+    display: inline-block;
+    font-size: 1vw;
+    font-family: Arial;
+    text-align: center;
+    width: 34%;
+    margin-top: 0;
+    position: absolute;
+    left: 1.5vw;
+    top: 35.5vw;
+  }
+
+  #Cap_Two {
+    display: inline-block;
+    font-size: 1.9vw;
+    font-family: "Helvetica Neue";
+    text-align: center;
+    width: 34%;
+    margin-top: 0;
+    position: absolute;
+    left: 1.5vw;
+    top: 40vw;
+    font-weight: bold;
+  }
+
+  ul > li {
+    font-size: 1vw;
+  }
+
+  .info-wrapper {
+    display: inline-block;
+    text-align: left;
+    background-color: rgba(31, 120, 127, .3);
+    box-shadow: -5px 3px 10px rgb(150, 150, 150);
+    margin-top: 1.5vw;
+    height: 16.5vw;
+    padding: 1vw;
+  }
+
+  #Info_One {
+    width: 60%;
+    margin-right: .5vw;
+  }
+
+  #Pastor_Box_Img {
+    display: inline-block;
+    width: 25%;
+  }
+
+  #Pastor_Text {
+    display: inline-block;
+    width: 70%;
+    text-align: center;
+    vertical-align: top;
+    font-family: "Helvetica Neue";
+    font-size: 1.5vw;
+  }
+
+  .phone-text {
+    font-size: 1vw;
+    font-weight: normal;
+  }
+
+  #List_One {
+    vertical-align: top;
+    padding-left: .5vw;
+    padding-right: .5vw;
+    width: 30%;
+  }
+
+  .servicetime-list {
+    margin: 1vw;
+  }
+
+  #Event_Times {
+    text-align: center;
+    padding-top: 1.5vw;
+    font-size: 1vw;
+  }
+}

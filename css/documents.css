@@ -1,0 +1,238 @@
+/* Author: Brandon W Fields */
+
+/* Smartphones (portrait) */
+@media only screen
+and (min-device-width : 320px)
+and (max-device-width : 480px)
+and (orientation: portrait) {
+  .button {
+    align-items: center;
+    background-color: #df3603;
+    border: .125rem solid #df3603;
+    border-radius: .25rem;
+    color: #fff;
+    cursor: pointer;
+    display: inline-flex;
+    font-weight: 500;
+    gap: .5rem;
+    height: 2.5rem;
+    line-height: 1;
+    padding: 0 .625rem;
+    position: relative;
+    text-decoration: none;
+    white-space: nowrap;
+  }
+  
+  .documents-title {
+    display: block;
+    position: relative;
+    text-align: center;
+    font-family: Georgia;
+    font-size: 15vw;
+    font-weight: bold;
+    letter-spacing: .2vw;
+    color: rgba(31, 120, 127, .5);
+    -webkit-text-stroke: 0.5vw black;
+    text-shadow: 0.25vw 0.25vw 0.6vw rgba(0, 0, 0, .2);
+    margin: 1vw auto;
+  }
+}
+
+/* Tablets, iPads (portrait and landscape); Smartphones (landscape) */
+@media only screen
+and (min-device-width : 481px)
+and (max-device-width : 1223px) {
+  .button {
+    align-items: center;
+    background-color: #df3603;
+    border: .125rem solid #df3603;
+    border-radius: .25rem;
+    color: #fff;
+    cursor: pointer;
+    display: inline-flex;
+    font-weight: 500;
+    gap: .5rem;
+    height: 2.5rem;
+    line-height: 1;
+    padding: 0 .625rem;
+    position: relative;
+    text-decoration: none;
+    white-space: nowrap;
+  }
+  
+  .documents-title {
+    display: block;
+    position: relative;
+    text-align: center;
+    font-family: Georgia;
+    font-size: 5vw;
+    font-weight: bold;
+    letter-spacing: .2vw;
+    color: rgba(31, 120, 127, .5);
+    -webkit-text-stroke: .15vw black;
+    text-shadow: .25vw .25vw .6vw rgba(0, 0, 0, .2);
+    margin: 1vw auto;
+  }
+
+  .body-container {
+    width: 100%;
+  }
+
+  .body-wrapper {
+    margin: 0 auto;
+    width: 85vw;
+  }
+
+  .list-title {
+    font-size: 2vw !important;
+  }
+
+  .col-wrapper {
+    display: flex;
+  }
+
+  .col {
+    margin-left: 1vw;
+    margin-right: 1vw;
+  }
+
+  .col-title {
+    font-size: 1.5vw;
+    text-align: center;
+    font-family: Georgia;
+  }
+
+  .rec-year {
+    font-size: 1.25vw;
+    font-weight: bold;
+    text-align: center;
+    font-family: "Helvetica Neue";
+  }
+
+  .rec-month {
+    font-size: 1.25vw;
+  }
+
+  .audio-wrapper {
+    border: solid .25vw rgba(31, 120, 127, .75);
+    padding: .25vw;
+    margin-bottom: 1vw;
+  }
+
+  .audio-date {
+    text-align: center;
+  }
+}
+
+/* Desktops and laptops */
+@media only screen
+and (min-width : 1224px) {
+  .button {
+    align-items: center;
+    background-color: #df3603;
+    border: .125rem solid #df3603;
+    border-radius: .25rem;
+    color: #fff;
+    cursor: pointer;
+    display: inline-flex;
+    font-weight: 500;
+    gap: .5rem;
+    height: 2.5rem;
+    line-height: 1;
+    padding: 0 .625rem;
+    position: relative;
+    text-decoration: none;
+    white-space: nowrap;
+  }
+
+  .documents-title {
+    display: block;
+    position: relative;
+    text-align: center;
+    font-family: Georgia;
+    font-size: 5vw;
+    font-weight: bold;
+    letter-spacing: .2vw;
+    color: rgba(31, 120, 127, .5);
+    -webkit-text-stroke: .15vw black;
+    text-shadow: .25vw .25vw .6vw rgba(0, 0, 0, .2);
+    margin: 1vw auto;
+  }
+
+  .body-container {
+    width: 100%;
+  }
+
+  .body-wrapper {
+    margin: 0 auto;
+    width: 95vw;
+  }
+
+  .list-title {
+    font-size: 2vw !important;
+  }
+
+  .col-wrapper {
+    display: flex;
+  }
+
+  .col {
+    margin-left: 1vw;
+    margin-right: 1vw;
+  }
+
+  .col-title {
+    font-size: 1.5vw;
+    text-align: center;
+    font-family: Georgia;
+  }
+
+  .rec-year {
+    font-size: 1.25vw;
+    font-weight: bold;
+    text-align: center;
+    font-family: "Helvetica Neue";
+  }
+
+  .June-13 {
+    height: 19vw;
+  }
+
+  .July-13 {
+    height: 28vw;
+  }
+
+  .Aug-13 {
+    height: 37vw;
+  }
+
+  .Sept-13 {
+    height: 36vw;
+  }
+
+  .Oct-13 {
+
+  }
+
+  .Nov-13 {
+
+  }
+
+  .Dec-13 {
+
+  }
+
+  .rec-month {
+    font-size: 1.25vw;
+  }
+
+  .audio-wrapper {
+    border: solid .25vw rgba(31, 120, 127, .75);
+    padding: .25vw;
+    margin-bottom: 1vw;
+  }
+
+  .audio-date {
+    text-align: center;
+  }
+}

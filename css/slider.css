@@ -1,0 +1,165 @@
+/*-------------------------------------*/
+/* HELPERS */
+
+/* Helpers: Positioning */
+
+.slider-container {
+  display: block;
+  position: relative;
+  width: 50%;
+  padding-bottom: 0%;
+  white-space: nowrap;
+  overflow: hidden;
+  margin-left: 40vw;
+}
+
+#slider-sizing {
+  display: block;
+  position: relative;
+  width: 100%;
+  height: auto;
+}
+
+.slide>a {
+  display: block;
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  opacity: 0;
+  visibility: hidden;
+  /* z-index: -1; */
+  transition: .25s all ease-in-out .25s;
+}
+
+.active-slide>a {
+  opacity: 1;
+  visibility: visible;
+
+  transition: all ease-in-out .25s;
+}
+
+.slide>a>img {
+  display: block;
+  position: relative;
+  width: 100%;
+  height: auto;
+}
+
+.slider-btn>button,
+.slider-btn>button:focus {
+  display: block;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  padding: .2vw;
+  margin: 0;
+  border: none;
+  outline: none;
+  background-color: rgba(0, 0, 0, 0);
+  overflow: visible;
+}
+
+.slider-btn {
+  display: block;
+  position: absolute;
+  height: 100%;
+  top: 0;
+  width: 4%;
+  vertical-align: middle;
+  background-color: rgba(0, 0, 0, 0.3);
+  opacity: 0;
+
+  transition: opacity ease-in-out .25s;
+}
+
+.slider-btn:hover,
+.slider-btn:hover>button,
+.slider-btn:hover>button>i {
+  cursor: pointer;
+  color: rgb(255, 255, 255);
+}
+
+.slider-container:hover>.slider-overlay>.slider-btn {
+  opacity: 1;
+  transition: opacity ease-in-out .25s;
+}
+
+.slider-radio {
+  display: table;
+  position: absolute;
+  text-align: center;
+  table-layout: fixed;
+  border-collapse: separate;
+  height: 1vw;
+  width: auto;
+  left: 50%;
+  transform: translateX(-50%);
+  margin: 0 auto;
+}
+
+.radio-button {
+  display: table-cell;
+  font-size: .7vw;
+  color: #fff;
+  vertical-align: middle;
+  padding: 0px .2vw;
+  z-index: 1;
+}
+
+.radio-button:hover,
+.active-radio {
+  cursor: pointer;
+  font-size: .8vw;
+}
+
+.radio-button>i {
+  display: inline-block;
+  position: relative;
+  color: #fff;
+  height: 100%;
+  width: auto;
+  font-size: .7vw;
+  margin: .1vw .2vw;
+  line-height: 100%;
+  min-height: 0px;
+  min-width: 0px;
+}
+
+.slider-left { left: 0; }
+
+.slider-right { right: 0; }
+
+.slider-bottom { bottom: 0; }
+
+.slider-btn>button>i {
+  display: block;
+  position: relative;
+  font-size: 1.8vw;
+  color: rgb(190, 190, 190);
+  top: 0;
+  bottom: 0;
+}
+
+/* Smartphones (portrait) */
+@media only screen
+and (min-device-width : 320px)
+and (max-device-width : 480px)
+and (orientation: portrait) {
+
+}
+
+/* Tablets, iPads (portrait and landscape); Smartphones (landscape) */
+@media only screen
+and (min-device-width : 481px)
+and (max-device-width : 1223px) {
+
+}
+
+/* Desktops and laptops */
+@media only screen
+and (min-width : 1224px) {
+  
+}

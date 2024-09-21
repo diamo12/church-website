@@ -1,0 +1,203 @@
+/* Author: Brandon W Fields */
+
+/* Global Styles */
+body {
+  margin: 0px;
+}
+
+.page-container {
+  background-color: white;
+  width: 100%;
+  height: 100%;
+  font-family: Georgia, Helvetica, "Helvetica Neue" !important;
+}
+
+.list-title {
+  font-weight: bold;
+  text-decoration: underline;
+}
+
+/* Header Styles */
+#Header_Text, #Tagline_Text {
+  color: black;
+  font-weight: bold;
+}
+
+#Tagline_Text {
+  font-family: "Helvetica Neue";
+}
+
+.header-wrapper {
+  display: inline-block;
+}
+
+/* Footer Styles */
+.footer-container {
+  display: block;
+  height: 2vw;
+  background-color: black;
+  color: white;
+  padding: 1vw;
+}
+
+.credit-to-icon-auth {
+  text-align: right;
+  bottom: 5vw;
+
+}
+
+/* Media Queries (display compatibility) */
+
+/* Smartphones (portrait) */
+@media only screen
+and (min-device-width : 320px)
+and (max-device-width : 480px)
+and (orientation: portrait) {
+  /* Global Styles */
+  /* body {
+    margin: 8px !important;
+  } */
+
+  /* Header Styles */
+  .header-container {
+    height: 55vw;
+    border-bottom: 1.5vw solid black;
+    margin: 8px 8px 0 8px;
+  }
+
+  .logo-txt {
+    text-align: center;
+  }
+
+  #Main_Logo {
+    display: inline-block;
+    width: 30%;
+  }
+
+  #Header_Text {
+    display: inline-block;
+    font-size: 5vw;
+    vertical-align: middle;
+    text-align: center;
+    margin-bottom: 1vw;
+  }
+
+  #Tagline_Text {
+    display: inline-block;
+    font-size: 2.5vw;
+    vertical-align: middle;
+    text-align: center;
+    margin-top: 0;
+  }
+
+  .nav {
+    width: 100%;
+  }
+
+  .list-title {
+    font-size: 3.5vw;
+  }
+
+  /* Footer Styles */
+  .credit-to-icon-auth {
+    font-size: 2.5vw;
+  }
+}
+
+/* Tablets, iPads (portrait and landscape); Smartphones (landscape) */
+@media only screen
+and (min-device-width : 481px)
+and (max-device-width : 1223px) {
+  /* Header Styles */
+  .header-container {
+    height: 6.5vw;
+    border-bottom: .5vw solid black;
+  }
+
+  .logo-txt {
+    width: 55% !important;
+    margin: .5vw;
+  }
+
+  #Main_Logo {
+    display: inline-block;
+    width: 10%;
+  }
+
+  #Header_Text {
+    display: inline-block;
+    font-size: 2.5vw;
+    vertical-align: top;
+  }
+
+  #Tagline_Text {
+    margin: 0;
+    width: 50%;
+    position: absolute;
+    top: 4.75vw;
+    right: 8.5vw;
+    font-size: 1vw;
+  }
+
+  .nav {
+    position: absolute;
+    top: 2vw;
+  }
+
+  .list-title {
+    font-size: 1vw;
+  }
+
+  /* Footer Styles */
+  .credit-to-icon-auth {
+    font-size: 1.25vw;
+  }
+}
+
+/* Desktops and laptops */
+@media only screen
+and (min-width : 1224px) {
+  /* Header Styles */
+  .header-container {
+    height: 6.5vw;
+    border-bottom: .5vw solid black;
+  }
+
+  .logo-txt {
+    width: 55% !important;
+    margin: .5vw;
+  }
+
+  #Main_Logo {
+    display: inline-block;
+    width: 10%;
+  }
+
+  #Header_Text {
+    display: inline-block;
+    font-size: 2.5vw;
+    vertical-align: top;
+  }
+
+  #Tagline_Text {
+    margin: 0;
+    width: 50%;
+    position: absolute;
+    top: 4.75vw;
+    right: 11.5vw;
+  }
+
+  .nav {
+    position: absolute;
+    top: 2vw;
+  }
+
+  .list-title {
+    font-size: 1vw;
+  }
+
+  /* Footer Styles */
+  .credit-to-icon-auth {
+    font-size: .5vw;
+  }
+}
